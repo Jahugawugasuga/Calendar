@@ -1,9 +1,8 @@
 var currentDay = $("#currentDay");
 currentDay.html(moment().format("dddd MMMM Do")); 
-// let currentDate = currentDay.moment().format("dddd MMMM Do")
-// currentDate.inn
 var workHours =[9,10,11,12,13,14,15,16,17];
 let currentHourNow = moment().format("HH");
+currentTime = moment();
 
 $(document).ready(function() { //once everything is ready
 $(".saveBtn").click (function(){
